@@ -39,7 +39,6 @@ def is_authenticated(request):
 
 
 def home_page(request):
-    my_title = "hello there baby this is private"
     normal = "this is normal"
     context ={"title":normal}
     
